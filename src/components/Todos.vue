@@ -8,7 +8,7 @@
           {{ todo.title }}
 
           <br>
-          <button @click.prevent="delTodo(todo.id)">Delete</button>
+          <button class="deleteBtn" @click.prevent="delTodo(todo.id)">Delete</button>
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@
       <br />
       <div class="add">
       <form @submit.prevent="onSubmit">
-            <input type="text" v-model="title" placeholder="Add Title" />
-            <input type="submit" value="Submit" />
+            <input id="title" type="text" v-model="title" placeholder="Add Title" />
+            <input id="submitBtn" type="submit" value="Submit" />
       </form>
       </div>
   </div>
